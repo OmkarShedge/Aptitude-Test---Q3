@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+   def countingValleys(n)
+   {
+      valley=0;
+      for i in range(n)
+      {
+          if (n[i]=="DUDU")
+          {
+              valley+=1;
+              
+          }
+      }
+    
+    return valley;
+
+int main()
+{
+    char n[];
+    
+    printf("Enter the input : ");
+    scanf("%c",n);
+    
+    if(n>0)
+    {
+        valley=countingValleys(n);
+    }
+    printf(" ",&valley);
+}
